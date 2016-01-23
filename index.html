@@ -1,0 +1,101 @@
+<html>
+ 	<head>
+		<script type="text/javascript"src="task.js"></script>
+		<title>TASK</title>
+	</head>
+ 
+<body>
+							<!-- .............................Task 1.......................... -->
+ 	<center>
+		<h1>
+			WIREDELTA TASKS
+		</h1>
+	</center>
+	<center>
+		<div id="body">
+			<h3>THE AGE CALCULATOR</h3>
+ 		<br />
+			
+			<p>Birth Year :
+			<input type="text" name="birthYear" id="birthYear"   />
+				</br></p>
+			<p>Current Year :
+			<input type="text" name="currentYear" id="currentYear"   />
+				</p><br/>
+			</p>
+			<input type="button"value="Calculate Age" onClick="caculateAge(document.getElementById('birthYear').value,document.getElementById('currentYear').value);" />
+
+	
+		<hr>
+
+							<!-- .............................Task 2.......................... -->
+ 
+	<h3>THE LIFETIME SUPPLY CALCULATOR</h3>
+ 
+	<p>Age :
+		<input type="text" name="age" id="age"   />
+	</p>
+	<p>Snacks /Day :
+  	  <input type="text" name="amount" id="amount"   />
+	</p><br />
+	<input type="button"  value="Calculate Snacks" onClick="calculateSupply(document.getElementById('age').value,document.getElementById('amount').value);" />
+	<hr>
+							<!-- .............................Task 3.......................... -->
+		 
+	<h3>THE GEOMETRIZER</h3>
+ 	<br />
+	<p>Radius of a Circle :
+		<input type="text" name="radius" id="radius" maxlength="4"   />
+	</p> <br />
+		<input type="button"   value="Calculate Area" onClick="calcArea(document.getElementById('radius').value);" />
+	<br /><br />
+		<input type="button"  value="Calculate Circumference" onClick="calcCircumfrence(document.getElementById('radius').value);" />
+	<hr>
+	<h3>THE TEMPERATURE CONVERTER</h3>
+	<br />
+	<p>Temperature :
+ 	   <input type="text" name="temperature" id="temperature"   />
+	</p><br />
+	<input type="button" value="Celsius to Fahrenheit" onClick="celsiusToFahrenheit(document.getElementById('temperature').value);" />
+	<br /><br />
+	<input type="button"   value="Fahrenheit to Celsius " onClick="fahrenheitToCelsius(document.getElementById('temperature').value);" />
+	<hr>
+	<marquee behavior="alternate"width="480px">Thank you...</marquee></blink>
+	</div>
+	</center>
+	
+ 
+</body>
+<style>
+
+	#body
+	{
+		background: 	#A9A9A9;
+		
+		color:blue;
+		 border-radius: 25px;
+		width:500px;
+		height:930px;
+  		box-shadow: 0px 0px 20px 10px #888888;
+		border:2px solid grey;
+ 		 text-align: center;
+	}
+	p
+	{
+		color:white; 
+	}
+	h3
+	{
+		color:yellow;
+	}
+	h1
+	{
+		height:50px;
+		width:500px;
+		border-radius: 25px;
+		background:grey;
+		color:white;
+	}
+	marquee{color:black;}
+</style>
+</html>
